@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../images/body-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 24%;
+  width: 400px;
+  margin: 1.25em;
+  border-radius: 10px;
+}
