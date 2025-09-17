@@ -18,12 +18,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-image: url(../images/body-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 25% 24%;
-  width: 350px;
+  width: 450px;
   margin: 1.25em;
   border-radius: 10px;
 }
@@ -39,16 +39,20 @@ header {
 
 h1 {
   font-family: "UnifrakturCook", cursive;
+  color: #85193c;
+  margin-bottom: 10px;
 }
 
-/* h2 {
-  color: #85193c;
-} */
+h2 {
+  font-size: 15px;
+}
+
+/* Main */
 
 main ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1.56em;
   text-align: center;
 }
 
@@ -60,4 +64,10 @@ main li {
 
 main a {
   color: inherit;
+}
+
+/* Footer */
+
+footer ul {
+  display: flex;
 }
