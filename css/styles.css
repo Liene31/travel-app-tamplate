@@ -58,12 +58,6 @@ main ul {
   text-align: center;
 }
 
-main li {
-  background-color: #8a2d3b;
-  padding: 0.625em 3.438em;
-  border-radius: 20px;
-}
-
 main a {
   color: inherit;
   font-family: "Cinzel", serif;
@@ -86,6 +80,7 @@ footer ul {
 footer p {
   padding-bottom: 1.25em;
   text-align: center;
+  text-shadow: 0 0 10px #e6e6e6, 0 0 20px #b22222;
 }
 
 /* Social media logos */
@@ -93,4 +88,18 @@ footer p {
 .social-logo {
   filter: invert(97%) sepia(9%) saturate(5163%) hue-rotate(167deg)
     brightness(88%) contrast(100%);
+}
+
+/* buttons */
+
+main li {
+  background-color: #8a2d3b;
+  padding: 0.625em 3.438em;
+  border-radius: 20px;
+  transition: all 200ms ease;
+}
+
+main li:hover {
+  background-color: #500f0f;
+  text-shadow: 0 0 10px #e6e6e6, 0 0 20px #b22222;
 }
