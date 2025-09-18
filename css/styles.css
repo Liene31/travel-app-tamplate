@@ -117,8 +117,4 @@ main li:hover {
   .container {
     background-image: none;
   }
-
-  main li {
-    padding: 1.3em 5em;
-  }
 }
