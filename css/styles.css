@@ -103,3 +103,18 @@ main li:hover {
   background-color: #500f0f;
   text-shadow: 0 0 10px #e6e6e6, 0 0 20px #b22222;
 }
+
+/* Media */
+
+@media (max-width: 620px) {
+  body {
+    background-image: url(../images/body-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 24%;
+  }
+
+  .container {
+    background-image: none;
+  }
+}
