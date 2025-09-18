@@ -72,4 +72,5 @@ main a {
 
 footer ul {
   display: flex;
+  gap: 20px;
 }
