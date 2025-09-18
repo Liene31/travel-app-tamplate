@@ -10,9 +10,10 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
-  font-family: "Cardo", serif;
-  color: #e6e6e6;
+  font-family: "Crimson Pro", serif;
+  color: #e9e3df;
   background-color: #25507b;
+  text-shadow: 2px 3px 4px black;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 25% 24%;
-  width: 450px;
+  width: 400px;
   margin: 1.25em;
   border-radius: 10px;
 }
@@ -36,17 +37,16 @@ header {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  text-shadow: 0px 0px 4px black;
 }
 
 h1 {
   font-family: "UnifrakturCook", cursive;
   color: #85193c;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
 h2 {
-  font-size: 13px;
+  font-size: 0.85rem;
 }
 
 /* Main */
@@ -60,12 +60,20 @@ main ul {
 
 main li {
   background-color: #8a2d3b;
-  padding: 7px 50px;
+  padding: 0.625em 3.438em;
   border-radius: 20px;
 }
 
 main a {
   color: inherit;
+  font-family: "Cinzel", serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+main p {
+  padding-top: 1.25em;
+  font-style: italic;
 }
 
 /* Footer */
@@ -73,4 +81,16 @@ main a {
 footer ul {
   display: flex;
   gap: 20px;
+}
+
+footer p {
+  padding-bottom: 1.25em;
+  text-align: center;
+}
+
+/* Social media logos */
+
+.social-logo {
+  filter: invert(97%) sepia(9%) saturate(5163%) hue-rotate(167deg)
+    brightness(88%) contrast(100%);
 }
